@@ -6,10 +6,18 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-    <p>hi</p>
+    // <div>
+    //   hi world
+    // </div>
+    // <div>
+    //   hi
+    // </div> 
+    <div>
+      hi world
     </div>
+    // That is correct^
   )
 }
 
 export default App
+ 
