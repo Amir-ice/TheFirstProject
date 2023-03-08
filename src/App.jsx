@@ -6,16 +6,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    // <div>
-    //   hi world
-    // </div>
-    // <div>
-    //   hi
-    // </div> 
-    <div>
-     branch main
-    </div>
-    // That is correct^
+  <div>
+    <label for="name" className='Label'>
+      Enter name :
+    </label>
+    <input id="name" type="text"/>
+    <button type="button" style={{color:red}}>click</button>
+  </div>
   )
 }
 
